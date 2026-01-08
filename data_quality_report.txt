@@ -1,0 +1,38 @@
+DATA QUALITY REPORT
+===================
+Timestamp: 2026-01-07 10:15:30
+
+SECTION 1: EXTRACTION SUMMARY
+-----------------------------
+Source Files Detected:
+- customers_raw.csv: FOUND
+- products_raw.csv: FOUND
+- sales_raw.csv: FOUND
+
+SECTION 2: TRANSFORMATION METRICS
+---------------------------------
+1. Customer Data:
+   - Initial Records: 20
+   - Duplicates Removed: 2
+   - Phone Numbers Fixed: 15
+   - Null Cities Filled: 3
+
+2. Product Data:
+   - Initial Records: 15
+   - Categories Standardized: 15
+   - Missing Prices Filled: 2
+   - Stock Quantities Fixed: 4
+
+3. Sales Data:
+   - Initial Records: 30
+   - Dates Formatted: 30
+   - Invalid Transactions Dropped: 1
+
+SECTION 3: LOAD SUMMARY
+-----------------------
+Database Connection: SUCCESS
+- Customers Inserted: 18
+- Products Inserted: 15
+- Sales Transactions Logged: 29
+
+STATUS: ETL Process Completed Successfully.
