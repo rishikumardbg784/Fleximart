@@ -1,7 +1,7 @@
 # FlexiMart Data Architecture Project
 
-**Student:** [Your Name]
-**ID:** [Your ID]
+**Student:** Rishi Kumar
+
 
 ## Overview
 This repository contains a comprehensive data solution for FlexiMart, an e-commerce platform. It demonstrates the full data lifecycle:
@@ -17,4 +17,5 @@ This repository contains a comprehensive data solution for FlexiMart, an e-comme
 
 ## Key Learnings
 * **Data Quality is Critical:** Writing the Python regex to clean phone numbers taught me that real-world data is rarely perfect.
+
 * **OLTP vs OLAP:** I learned that while 3NF is great for transactions, it is terrible for analytics. The Star Schema (Part 3) made writing reports much easier.
